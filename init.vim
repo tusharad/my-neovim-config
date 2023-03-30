@@ -25,5 +25,6 @@ call plug#end()
 colorscheme gruvbox
 
 let mapleader = " "
+nnoremap tt :tabedit 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
