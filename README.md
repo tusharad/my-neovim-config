@@ -2,11 +2,11 @@
 
 ## Prerequisite
 
-1. Install vim-plug from [here](https://github.com/junegunn/vim-plug)
-2. Install ripgrep from [here](https://github.com/burntsushi/ripgrep)
+brew install ripgrep fd
 
 ## Instructions
 
-1. copy the init.lua in '~/.config/nvim' directory.
-2. Do :PlugInstall
-
+1. Create neovim dir: ~/.config/nvim
+2. Copy init.lua in it.
+3. Launch nvim (let lazy vim download all packages)
+4. Run :Mason (Install lsp)
